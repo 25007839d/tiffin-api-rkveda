@@ -173,10 +173,10 @@ ON DUPLICATE KEY UPDATE name=VALUES(name);
 INSERT INTO settings(setting_key,setting_value) VALUES
 ('business_name','RKVeda Tiffin'),
 ('tagline','Ghar Jaisa Khana, Roz Aapke Ghar'),
-('city','Dehradun'),
-('state','Uttarakhand'),
+('city','Vrindavan, Mathura'),
+('state','Uttar Pradesh'),
 ('currency','INR'),
 ('delivery_charge','0'),
-('support_mobile','+91 98765 43210'),
-('support_email','support@rkveda.in')
+('support_mobile','+91 81260 37298 / +91 98730 81994'),
+('support_email','tiffinrkveda@gmail.com')
 ON DUPLICATE KEY UPDATE setting_value=VALUES(setting_value);
