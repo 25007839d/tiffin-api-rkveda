@@ -31,7 +31,11 @@ Cashfree webhook URL:
 - GET `/admin/dashboard`
 - GET `/admin/orders`
 - PATCH `/admin/orders/:id/status`
+- PUT `/admin/orders/:id` — update order status/notes
+- DELETE `/admin/orders/:id` — delete an order
 - GET `/admin/customers`
+- PUT `/admin/customers/:id` — update customer details
+- DELETE `/admin/customers/:id` — deactivate customer (preserves order history)
 - GET `/admin/payments`
 - GET `/admin/subscriptions`
 - GET `/admin/menu`
